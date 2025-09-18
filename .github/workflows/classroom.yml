@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Live camera filter test
-        setup-command: pip install -r requirements
+        setup-command: pip install -r requirements.txt
         command: python -m pytest
         timeout: 10
         max-score: 10
